@@ -1,0 +1,116 @@
+h1 {
+    color: olive;
+    font-family: 'Jost', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 30px;
+
+}
+
+
+nav .mainmenu:hover {
+    text-decoration: underline;
+}
+
+.nav-conteyner {
+    display: flex;
+}
+
+.menublock {
+    display: flex;
+
+    justify-content: left;
+    width: 70%;
+}
+
+
+.trolley {
+
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    width: 30%;
+}
+
+
+.maintext {
+    height: 550px;
+
+    background: url(assets/tarah-dane-kUSusBBthW0-unsplash.jpg) 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.slogan {
+
+    font-family: 'Poppins', Times, serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 102.9%;
+
+    text-transform: uppercase;
+    color: #4C5930;
+    opacity: 0.8;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 150px;
+
+
+}
+
+
+
+
+.smallletters {
+
+    font-family: 'Poppins', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 117%;
+    /* or 23px */
+    display: flex;
+    width: 800px;
+    align-items: center;
+    color: #000000;
+    margin-left: 150px;
+
+}
+
+.tryitbtn {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 15px;
+    background: #E77622;
+    width: 70px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+.tryitbtn:active {
+    color: #7cc9f0;
+    background-color: #555555;
+    text-decoration: underline;
+
+}
+
+.tryittxt {
+
+    color: wheat;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.downmenu {
+    background: bisque;
+    align-self: stretch;
+    padding: 20px;
+}
