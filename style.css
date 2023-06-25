@@ -1,3 +1,21 @@
+.head {
+
+    background: bisque;
+    text-align: left;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mainmenu {
+    text-decoration: none;
+    color: olive;
+    padding: 5px;
+}
+
+
+
 h1 {
     color: olive;
     font-family: 'Jost', Times, serif;
@@ -36,7 +54,6 @@ nav .mainmenu:hover {
 
 .maintext {
     height: 550px;
-
     background: url(assets/tarah-dane-kUSusBBthW0-unsplash.jpg) 100%;
     background-size: cover;
     display: flex;
@@ -50,7 +67,6 @@ nav .mainmenu:hover {
     font-weight: 400;
     font-size: 40px;
     line-height: 102.9%;
-
     text-transform: uppercase;
     color: #4C5930;
     opacity: 0.8;
@@ -59,7 +75,6 @@ nav .mainmenu:hover {
     height: 100px;
     margin-left: 150px;
     margin-top: 150px;
-
 
 }
 
@@ -91,8 +106,6 @@ nav .mainmenu:hover {
     height: 40px;
     font-weight: 400;
     font-size: 20px;
-
-
 }
 
 .tryitbtn:active {
